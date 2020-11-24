@@ -1,0 +1,16 @@
+﻿title: Test
+tags:
+---
+Test
+1...
+2...
+3...
+Test!
+===
+
+title: Quit
+tags:
+---
+bye!
+<<Quit>>
+===

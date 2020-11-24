@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d0592da-955d-4dd6-8777-625a6f88bcd5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BB4ED992-9FE0-4849-BBE2-B059CBA4D31F/d1/056f09b7/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD504953-D81E-4C1F-9A1B-8F7BBFB7FDA8/84/9dc4905b/Animator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@1.2.7/Runtime/YarnProgram.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA794459-0845-437F-86A9-78879988482B/e6/0a2f02a7/Dialogue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/282860F4-40AC-4F48-A82A-3A8AAAEC3082/98/676870dd/SerializedProperty.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/DD504953-D81E-4C1F-9A1B-8F7BBFB7FDA8/58/879e1875/02000003.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@1.2.7/Runtime/DialogueRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/36/9542c77e/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueContinueButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@1.2.7/Runtime/DialogueUI.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NodeVisitedTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlaceDialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueUIExt.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@1.2.7/Runtime/DialogueRunner.cs" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/dev.yarnspinner.unity@1.2.7/Runtime/DialogueUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueUIExt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Yarn/Unity/DialogueUIExt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/NodeVisitedTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TriggerZone_Editor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Animations/AnimatorParameters.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dialogue/Test.yarn" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueContinue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueVisitedTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueContinueButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/InputHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialoguePlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level/TilemapInEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Environment/Water.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kHoK0BvY0M2vKeEpFMkH5ReB4a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\Plaftormer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Jesse\UnityProjects\Plaftormer\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d0592da-955d-4dd6-8777-625a6f88bcd5" name="Default Changelist" comment="" />
+      <created>1605366812824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605366812824</updated>
+      <workItem from="1605366816086" duration="26641000" />
+      <workItem from="1605550150137" duration="12524000" />
+      <workItem from="1605635772991" duration="59873000" />
+      <workItem from="1605963810089" duration="10676000" />
+      <workItem from="1606075671800" duration="18966000" />
+      <workItem from="1606247144646" duration="99000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1606155162297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1606155162297" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1606083956723">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606083956723" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1606079911254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606079911254" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.7.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605794710146" />
+    <state x="2418" y="187" width="672" height="543" key="search.everywhere.popup/1920.7.1536.832/0.0.1920.1040@1920.7.1536.832" timestamp="1605876477853" />
+  </component>
+</project>

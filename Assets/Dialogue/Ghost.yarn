@@ -1,0 +1,12 @@
+﻿title: Follow
+tags:
+---
+<<toggleDialogueContainer Ghost false>>
+<<focusCamera Ghost>>
+<<toggleDialogueContainer Ghost true>>
+Follow me...
+<<animate Ghost Leave>>
+<<toggleDialogueContainer Ghost false>>
+<<wait 1>>
+<<unFocusCamera Ghost>>
+===
