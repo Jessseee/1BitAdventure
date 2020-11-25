@@ -50,7 +50,8 @@ MonoBehaviour:
   yarnScripts: []
   dialogueNodes: []
   dialogueContainer: {fileID: 7619448690708125386}
-  spriteAnimator: {fileID: 6610924201038686259}
+  spriteAnimator: {fileID: 0}
+  animationNames: []
 --- !u!1 &1993964554704756566
 GameObject:
   m_ObjectHideFlags: 0
@@ -122,8 +123,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zoneType: 1
+  yarnScripts: []
   dialogue: 
+  randDialogues: []
   maxNumberOfVisits: 0
+  nextLevel: 
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:

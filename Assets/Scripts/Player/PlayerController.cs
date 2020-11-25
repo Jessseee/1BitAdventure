@@ -11,7 +11,7 @@ namespace Player
 	{
 		[SerializeField] private float jumpForce = 400f;
 		[SerializeField] [Range(0, .3f)] private float movementSmoothing = .05f;
-		[SerializeField] [Range(0, 20f)] private float speed = 10.0f;
+		[SerializeField] [Range(0, 20.0f)] private float speed = 10.0f;
 		[SerializeField] private LayerMask groundLayer;
 		[SerializeField] private Transform groundCheck;
 		[Space] public UnityEvent onLandEvent;

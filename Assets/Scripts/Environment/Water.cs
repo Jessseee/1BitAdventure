@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-/* Based on the great tutorial on mass spring damper water physics by Alex Rose.
+/* Based on the great tutorial on mass spring damper physics for 2D water by Alex Rose.
  * https://gamedevelopment.tutsplus.com/tutorials/creating-dynamic-2d-water-effects-in-unity--gamedev-14143 */
 
 namespace Environment
@@ -13,6 +13,7 @@ namespace Environment
         [SerializeField] private int nodeFrequency;
         [SerializeField] private float z = -1.0f;
         [SerializeField] private float width = 1.0f;
+        [SerializeField] private float surfaceThickness = 0.05f;
         [SerializeField] private float colliderDepth = 1.0f;
 
         [Header("Spring/Damper Constants")]
@@ -24,6 +25,10 @@ namespace Environment
         [Header("Waves")] 
         [SerializeField] private float maxBaseWaveHeight = 0.1f;
         [SerializeField] private float baseWaveFrequency = 0.4f;
+
+        [Header("Splash")] 
+        [SerializeField] private GameObject splashPrefab;
+        private ParticleSystem _splash;
 
         private LineRenderer _surface;
         private BoxCollider2D _collider;
@@ -46,14 +51,17 @@ namespace Environment
             _left = transform.position.x;
             _baseHeight = _top;
 
+            GameObject splash = Instantiate(splashPrefab, transform);
+            _splash = splash.GetComponent<ParticleSystem>();
+
             _surface = GetComponent<LineRenderer>() == null ? gameObject.AddComponent<LineRenderer>() : GetComponent<LineRenderer>();
             _surface.material = material;
-            _surface.material.renderQueue = 1000;
+            _surface.material.renderQueue = -1;
             _surface.positionCount = nodeCount;
             _surface.startColor = color;
             _surface.endColor = color;
-            _surface.startWidth = 0.1f;
-            _surface.endWidth = 0.1f;
+            _surface.startWidth = surfaceThickness;
+            _surface.endWidth = surfaceThickness;
 
             _collider = GetComponent<BoxCollider2D>() == null ? gameObject.AddComponent<BoxCollider2D>() : GetComponent<BoxCollider2D>();
             _collider.isTrigger = true;
@@ -128,6 +136,9 @@ namespace Environment
                 xPos -= _xPositions[0];
                 int index = Mathf.RoundToInt((_xPositions.Length-1)*(xPos / (_xPositions[_xPositions.Length-1] - _xPositions[0])));
                 _velocities[index] += force/mass;
+
+                _splash.transform.localPosition = new Vector3(xPos, -0.15f, z);
+                _splash.Play();
             }
         }
 

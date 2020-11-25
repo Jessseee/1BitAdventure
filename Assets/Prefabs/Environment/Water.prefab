@@ -55,3 +55,4 @@ MonoBehaviour:
   mass: 1
   maxBaseWaveHeight: 0.1
   baseWaveFrequency: 0.8
+  splashPrefab: {fileID: 4765953931871741615, guid: 807b88ff8005cf3458454a72b302d439, type: 3}
