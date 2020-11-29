@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Yarn.Unity;
 
 namespace Player
 {
@@ -9,18 +10,25 @@ namespace Player
 	[RequireComponent(typeof(Animator))]
 	public class PlayerController : MonoBehaviour
 	{
+		[Header("Movement")]
 		[SerializeField] private float jumpForce = 400f;
 		[SerializeField] [Range(0, .3f)] private float movementSmoothing = .05f;
 		[SerializeField] [Range(0, 20.0f)] private float speed = 10.0f;
 		[SerializeField] private LayerMask groundLayer;
 		[SerializeField] private Transform groundCheck;
-		[Space] public UnityEvent onLandEvent;
+		
+		[Header("Dialogue")]
+		public YarnProgram[] yarnScripts;
+		
+		[Header("Events")] 
+		public UnityEvent onLandEvent;
 
 		private const float GroundedRadius = .2f;
 		private bool _grounded;
 		private bool _facingRight = true;
 		private string _currentAnimatorState;
 		private Vector3 _velocity = Vector3.zero;
+		private DialogueRunner _dialogueRunner;
 		private Rigidbody2D _rigidbody2D;
 		private Animator _animator;
 		private Dictionary<string, string> _animations;
@@ -29,6 +37,14 @@ namespace Player
 		private void Awake()
 		{
 			_rigidbody2D = GetComponent<Rigidbody2D>();
+			
+			if (yarnScripts.Length > 0)
+			{
+				_dialogueRunner = FindObjectOfType<DialogueRunner>();
+
+				foreach (YarnProgram yarnScript in yarnScripts)
+					_dialogueRunner.Add(yarnScript);
+			}
 			
 			_animator = GetComponent<Animator>();
 			AnimationClip[] animationClips = _animator.runtimeAnimatorController.animationClips;

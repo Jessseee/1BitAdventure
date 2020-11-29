@@ -78,7 +78,7 @@ namespace Dialogue
             float maxBound = canvasRadius - containerRadius;
             
             Transform containerTransform = container.transform;
-            containerTransform.position = new Vector2(targetPosition.x, containerTransform.position.y);
+            containerTransform.position = new Vector2(targetPosition.x, targetPosition.y+1.4f);
             
             if (containerTransform.localPosition.x >= minBound && containerTransform.localPosition.x <= maxBound)
                 containerTransform.position = new Vector2(targetPosition.x, containerTransform.position.y);

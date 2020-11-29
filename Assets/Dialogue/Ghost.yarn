@@ -1,12 +1,12 @@
 ﻿title: Follow
 tags:
 ---
-<<toggleDialogueContainer Ghost false>>
-<<focusCamera Ghost>>
-<<toggleDialogueContainer Ghost true>>
+<<toggleDialogueContainer GhostEncounter2 false>>
+<<focusCamera GhostEncounter2>>
+<<toggleDialogueContainer GhostEncounter2 true>>
 Follow me...
-<<animate Ghost Leave>>
-<<toggleDialogueContainer Ghost false>>
+<<animate GhostEncounter2 Leave>>
+<<toggleDialogueContainer GhostEncounter2 false>>
 <<wait 1>>
-<<unFocusCamera Ghost>>
+<<unFocusCamera GhostEncounter2>>
 ===
